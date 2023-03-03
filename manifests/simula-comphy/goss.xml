@@ -3,4 +3,4 @@
     <description>General ODE System Solver</description>
     <depend package="pybind11" />
     <tags>stable</tags>
-</package
+</package>
