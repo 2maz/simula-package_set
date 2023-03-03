@@ -1,0 +1,20 @@
+<package>
+    <name>mps_motion</name>
+
+    <depend package="ap-features" />
+    <depend package="cardiac-mps" />
+    <depend package="daiquiri" />
+    <depend package="dask-image" />
+    <depend package="dask" />  <!-- [array,diagnostics]' -->
+    <depend package="h5py" />
+    <depend package="matplotlib" />
+    <depend package="numba" />
+    <depend package="numpy" />
+    <depend package="opencv-contrib-python" />
+    <depend package="opencv-python" />
+    <depend package="scipy" />
+    <depend package="tqdm" />
+    <depend package="typer" />
+    <depend package="typing-extensions" />
+</package>
+

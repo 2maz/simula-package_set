@@ -1,0 +1,10 @@
+name: simula-computational-physiology
+
+# imports:
+#    - ...
+
+
+version_control:
+    - simula-comphy/.*:
+      github: ComputationalPhysiology/$PACKAGE_BASENAME
+      branch: main 

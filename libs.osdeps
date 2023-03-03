@@ -1,0 +1,22 @@
+ap-features: pip
+cardiac-mps: pip
+daiquiri: pip
+dask-image: pip
+dask: pip
+h5py: pip
+matplotlib: pip
+numba: pip
+numpy: pip
+opencv-contrib-python: pip
+opencv-python: pip
+scipy: pip
+tqdm: pip
+typer: pip
+typing-extensions: pip
+
+
+pybind11:
+    debian,ubuntu: python3-pybind11
+    pip: pybind11
+
+

@@ -1,0 +1,13 @@
+python_package 'simula-comphy/cardiac_geometries'
+python_package 'simula-comphy/simcardems'
+python_package 'simula-comphy/ap_features'
+python_package 'simula-comphy/mps'
+
+cmake_package 'simula-comphy/goss'
+python_package 'simula-comphy/modelgraph'
+python_package 'simula-comphy/mps_motion'
+python_package 'simula-comphy/cbcbeat'
+python_package 'simula-comphy/modelsparameters'
+python_package 'simula-comphy/gotran'
+python_package 'simula-comphy/drug-database'
+
