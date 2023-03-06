@@ -7,4 +7,3 @@ name: simula-computational-physiology
 version_control:
     - simula-comphy/.*:
       github: ComputationalPhysiology/$PACKAGE_BASENAME
-      branch: main 

@@ -1,18 +1,34 @@
 ap-features: pip
 cardiac-mps: pip
+cbcbeat: pip
+click: pip
 daiquiri: pip
 dask-image: pip
 dask: pip
+fenics-pulse: pip
 h5py: pip
+gotran: pip
+imageio: pip
+imageio-ffmpeg: pip
 matplotlib: pip
+meshio: pip
+mpmath: pip
+networkx: pip
 numba: pip
 numpy: pip
 opencv-contrib-python: pip
 opencv-python: pip
+packaging: pip
+pint: pip
+rich-click: pip
 scipy: pip
+scikit-image: pip
+setuptools: pip
+tifffile: pip
 tqdm: pip
 typer: pip
 typing-extensions: pip
+xmltodict: pip
 
 
 pybind11:

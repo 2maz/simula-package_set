@@ -7,7 +7,17 @@ cmake_package 'simula-comphy/goss'
 python_package 'simula-comphy/modelgraph'
 python_package 'simula-comphy/mps_motion'
 python_package 'simula-comphy/cbcbeat'
-python_package 'simula-comphy/modelsparameters'
+python_package 'simula-comphy/modelparameters'
 python_package 'simula-comphy/gotran'
 python_package 'simula-comphy/drug-database'
+
+
+metapackage 'gotran',
+    'simula-comphy/gotran'
+
+metapackage 'cardiac-geometries',
+    'simula-comphy/cardiac_geometries'
+
+metapackage 'modelparameters',
+    'simula-comphy/modelparameters'
 
