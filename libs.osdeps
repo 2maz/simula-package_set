@@ -7,7 +7,6 @@ dask-image: pip
 dask: pip
 fenics-pulse: pip
 h5py: pip
-gotran: pip
 imageio: pip
 imageio-ffmpeg: pip
 matplotlib: pip
