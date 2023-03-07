@@ -10,11 +10,15 @@ python_package 'simula-comphy/ap_features'
 python_package 'simula-comphy/mps'
 
 cmake_package 'simula-comphy/goss'
-python_package 'simula-comphy/modelgraph'
+python_package 'simula-comphy/modelgraph' do |pkg|
+    pkg.depends_on 'simula-comphy/gotran'
+end
 python_package 'simula-comphy/mps_motion'
 python_package 'simula-comphy/cbcbeat'
 python_package 'simula-comphy/modelparameters'
-python_package 'simula-comphy/gotran'
+python_package 'simula-comphy/gotran' do |pkg|
+    pkg.depends_on 'simula-comphy/modelparameters'
+end
 python_package 'simula-comphy/drug-database'
 
 
