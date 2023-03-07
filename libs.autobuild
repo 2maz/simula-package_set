@@ -1,5 +1,11 @@
 python_package 'simula-comphy/cardiac_geometries'
-python_package 'simula-comphy/simcardems'
+
+python_package 'simula-comphy/simcardems' do |pkg|
+    # FIXME: currently parallel processing stop prematurely/fails when not
+    # explicitly stating the dependency here
+    pkg.depends_on 'simula-comphy/cardiac_geometries'
+end
+
 python_package 'simula-comphy/ap_features'
 python_package 'simula-comphy/mps'
 
